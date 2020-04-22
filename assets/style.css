@@ -1,0 +1,67 @@
+.contentLine {
+  display: inline-block;
+}
+
+#golosovanie {
+  position: fixed;
+  padding-top: 100px;
+  left: 500px;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+#submit-result {
+  position: fixed;
+  padding-top: 100px;
+  left: 800px;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#img {
+  height: 125px;
+  width: 175px;
+}
+
+#menu {
+  font-size: 21px;
+}
+img {
+  width: 90%;
+  border: 2px solid red;
+}
+
+body {
+  background-color: #d7e0d3;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+#header {
+  height: 100px;
+  background: #2277aa;
+}
+#left-bar {
+  border: block;
+  float: left;
+  width: 200px;
+  padding: 10px;
+  /* background: #ddd; */
+}
+
+#content {
+  margin-left: 200px;
+  /* margin-right: 220px;  */
+  padding: 10px;
+  background: #eee;
+}
+#footer {
+  clear: both;
+  height: 50px;
+  background: #2277aa;
+}

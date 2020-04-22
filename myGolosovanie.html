@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" href="assets/style.css" rel="stylesheet" />
+    <title>Голосование за лучший фильм !</title>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="left-bar">
+      <h2>Главное меню</h2>
+      <ul id = "menu">
+        <li><a href="mySite.html">Главная</a></li>
+        <li><a href="myGolosovanie.html">Голосование</a></li>
+      </ul>
+    </div>
+    
+    <div id="content" >
+       
+        <div class = 'contentLine'>
+    <h3>Не ленись голосуй за фильм который нравиться тебе !!!</h3>
+    <h4>Интерстеллар</h4> 
+      <img id = "img" src="img/inst.jpg" alt="img" title="Картинка">
+      <br>
+    
+      <h4>Звёздные войны: Эпизод 6 <br>
+         Возвращение Джедая</h4>
+      <img id = "img" src="img/zv6.jpg" alt="img" title="Картинка">
+     
+      <h4>Звёздные войны: Эпизод 5 <br> 
+          Империя наносит ответный удар</h4>
+      <img id = "img" src="img/zv5.jpg" alt="img" title="Картинка">
+     
+      <h4>Звёздные войны:  <br>
+          Эпизод 4 Новая надежда</h4>
+      <img id = "img" src="img/zv3.jpg" alt="img" title="Картинка">
+     
+      <h4>Чужой</h4>
+      <img id = "img" src="img/alien.jpg" alt="img" title="Картинка">
+        </div> 
+
+      <div class = 'contentLine' id ='golosovanie'>
+        <h3>Голосование</h3>  
+    
+        <form id="form">
+          <div>
+              <label for="username">Интерстеллар</label>
+              <input type="radio" id = "inst" name="radio" value="inst" />
+          </div>
+      
+          <div>
+              <label for="username">Звёздные войны: Эпизод 6</label>
+              <input type="radio" id = "zv6" name="radio" value="zv6" />
+          </div>
+      
+          <div>
+              <label for="username">Звёздные войны: Эпизод 5</label>
+              <input type="radio" id = "zv5" name="radio" value="zv5" />
+          </div>
+  
+          <div>
+              <label for="username">Звёздные войны: Эпизод 4</label>
+              <input type="radio" id = "zv4" name="radio" value="zv4" />
+          </div>
+  
+          <div>
+              <label for="username">Чужой</label>
+              <input type="radio" id = "alien" name="radio" value="alien" />
+          </div>
+      
+          <div>
+              <button id="button"> Голосовать </button>
+          </div> 
+         
+      </form>
+ 
+    </div>
+    <div class ="contentLine" id = "submit-result" >
+        <h3>Кол-во проголосовавших </h3>  
+    <div id = "installer"></div>
+
+    <div id = "zv_6">0</div>
+
+    <div id = "zv_5">0</div>
+
+    <div id = "zv_4">0</div>
+
+    <div id = "alien1">0</div>
+    
+    <div id = "count">0</div>
+      </div>
+
+      </div>
+        <div id="footer">
+      </div>
+
+      <script src="assets/js.js"></script>
+</body>
+</html>
